@@ -8,6 +8,8 @@ class ProductController extends Controller
 {
     public function index()
     {
+       // $products = Products::simplePaginate(6);
         return view('index');
     }
+
 }
