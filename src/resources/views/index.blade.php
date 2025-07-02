@@ -32,5 +32,12 @@
             <button class="search-form__button-submit" type="submit">検索</button>
         </div>
     </form>
+
+    <h3>価格順で表示</h3>
+    <select class="search-form__item-select">
+        <option value="">カテゴリ</option>
+    </select>
+
+    
 </body>
 </html>
