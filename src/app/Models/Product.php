@@ -13,5 +13,8 @@ class Product extends Model
         'name',
         'price',
         'image',
+        'description',
     ];
 }
+
+// 画像をDBに保存する

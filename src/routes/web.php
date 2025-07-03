@@ -17,4 +17,6 @@ use App\Http\Controllers\ProductController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 商品一覧ページ
 Route::get('/products', [ProductController::class, 'index']);

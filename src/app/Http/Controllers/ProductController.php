@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class ProductController extends Controller
 {
     public function index()
     {
-       // $products = Products::simplePaginate(6);
+        $products = Product::simplePaginate(6);
         return view('index');
     }
 
 }
+
+
