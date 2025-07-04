@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mogitate</title>
-</head>
+@extends('layouts.app')
 
-<body>
-    <header class="header">
-        <div class="header__inner">
-            <a class="header__logo" href="/">
-                mogitate
-            </a>
-        </div>
-    </header>
+@section('css')
+<link rel="stylesheet" href="{{ asset('css/index.css') }}">
+@endsection
 
-    <h1>商品一覧</h1>
-
+<div class="product__content">
+    <div class="section__title">
+    <h2>商品一覧</h2>
+    </div>
     <nav>
         <ul class="register-nav">
             <li class="register-nav__item">
@@ -37,7 +28,6 @@
     <select class="search-form__item-select">
         <option value="">カテゴリ</option>
     </select>
+</div>
 
-    
-</body>
 </html>

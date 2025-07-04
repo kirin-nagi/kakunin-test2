@@ -1,0 +1,12 @@
+.register-nav__link{
+    color: #080808;
+    background: #fc9803;
+    margin: 50px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
