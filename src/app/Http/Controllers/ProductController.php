@@ -7,9 +7,9 @@ use App\Models\Product;
 
 class ProductController extends Controller
 {
-    public function index()
+    //商品一覧ページ
+        public function index()
     {
-        $products = Product::simplePaginate(6);
         return view('index');
     }
 

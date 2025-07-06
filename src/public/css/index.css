@@ -1,12 +1,39 @@
-.register-nav__link{
+.product-content{
+    background-color: #dad6d6;
+}
+
+.register-nav__link {
     color: #080808;
     background: #fc9803;
-    margin: 50px;
-    padding: 10px 15px;
+    margin: 10px;
+    padding: 10px;
     text-decoration: none;
     font-size: 15px;
     width: 120px;
     border-radius: 5px;
     display: flex;
     justify-content: flex-end;
+}
+
+.search-form__content{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.search-form{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 5px;
+}
+
+.search-form__button-submit{
+    color: black;
+    background: #f7ac3b;
+    margin: 10px;
+    padding: 5px 5px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid white;
 }
